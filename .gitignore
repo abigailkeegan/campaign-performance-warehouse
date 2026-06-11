@@ -1,0 +1,23 @@
+# Snowflake key-pair credentials -- never commit these
+*.p8
+*.pem
+rsa_key*
+*.key
+
+# Connection details and secrets
+.env
+*.env
+secrets.*
+config.local.*
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Raw data (sourced externally, not committed)
+data/
+*.xlsx
+online_retail*
